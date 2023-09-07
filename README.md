@@ -1,2 +1,2 @@
 # WebCrawler
- Python module for a web crawler/scraper. 
+ Python module used to scrape websites and create an index which allows for relevance based searches.
