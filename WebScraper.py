@@ -10,8 +10,8 @@ class WebScraper:
     while not choice == 'exit':
         choice = input("Choose- build, load, print, find or exit\n")
         if choice == 'build':
-            url='http://example.python-scraping.com/'
-            baseurl='http://example.python-scraping.com'
+            url=''+'/' #Enter starting page here
+            baseurl='' #Enter starting page here
             r = requests.get(url)
             main_queue = []
             current_queue = []
